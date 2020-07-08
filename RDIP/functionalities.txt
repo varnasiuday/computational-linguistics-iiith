@@ -1,0 +1,12 @@
+isFinite()
+isNaN()
+parseFloat()
+String()
+eval()
+undefined
+concat()
+sort()
+constructor
+length
+localeCompare()
+match()
