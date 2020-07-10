@@ -158,3 +158,11 @@ var hin7g=["है","वहाँ","एक","बड़ी","सी","किता�
 document.getelementById("demo1").innerHTML=hin7g;
 var hin7h=["है","वहाँ","बड़ी","सी","एक","किताब"];
 document.getelementById("demo1").innerHTML=hin7h;
+function changeLang();
+{
+var lang=document.getelementById("lang");
+if(lang="hindi"){
+  return दिए गए शब्दों में से एक वाक्य (घोषणात्मक या प्रश्नवाचक) बनाएं;}
+else{
+  return Form a sentence (interroagative or declarative) using the given words;}
+}
