@@ -164,11 +164,13 @@ var lang=document.getelementById("lang");
 if(lang="hindi"){
   return दिए गए शब्दों में से एक वाक्य (घोषणात्मक या प्रश्नवाचक) बनाएं;
   function makeid(){
-    let randomValue = hin1a[Math.floor(Math.random() * myArray.length)];
+    shuffle(hin1a) ;
+    return hin1a;
     <input type = "button" onclick =getelementById.value=changelang()> }}
 else{
   return Form a sentence (interroagative or declarative) using the given words;
    function makeid(){
-    let randomValue = eng1a[Math.floor(Math.random() * myArray.length)];
-    <input type = "button" onclick =getelementById.value=changelang()> }
+     shuffle(eng1a) ;
+     return eng1a;
+     <input type = "button" onclick =getelementById.value=changelang()> }
 }
