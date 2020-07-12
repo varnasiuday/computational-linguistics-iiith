@@ -165,12 +165,18 @@ if(lang="hindi"){
   return दिए गए शब्दों में से एक वाक्य (घोषणात्मक या प्रश्नवाचक) बनाएं;
   function makeid(){
     shuffle(hin1a) ;
-    return hin1a;
-    <input type = "button" onclick =getelementById.value=changelang()> }}
+    return hin1a;}
 else{
   return Form a sentence (interroagative or declarative) using the given words;
    function makeid(){
      shuffle(eng1a) ;
-     return eng1a;
-     <input type = "button" onclick =getelementById.value=changelang()> }
+     return eng1a; }
+}
+function toggleText() {
+  var text = document.getElementById("demo2");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }
 }
