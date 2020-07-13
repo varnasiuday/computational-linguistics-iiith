@@ -166,7 +166,10 @@ if(lang="hindi"){
   function makeid(){
     shuffle(hin1a) ;
     return hin1a;
-    <input type = "button" onclick =getelementById.value=toggleText()> 
+    <input type = "button" onclick =getelementById.value=toggleText()>
+    function newFunction() {
+            document.getElementById("newForm").reset();
+         }
     function toggleText() {
   var text = document.getElementById("demo2");
   if (text.style.display === "none") {
@@ -181,7 +184,10 @@ else{
    function makeid(){
      shuffle(eng1a) ;
      return eng1a;
-     <input type = "button" onclick =getelementById.value=toggleText()> }
+     <input type = "button" onclick =getelementById.value=toggleText()> 
+   function newFunction() {
+            document.getElementById("newForm").reset();
+         }
    function toggleText() {
   var text = document.getElementById("demo2");
   if (text.style.display === "none") {
