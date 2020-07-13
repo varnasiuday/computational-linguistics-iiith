@@ -1,8 +1,8 @@
-var eng1a = ["John", "ate", "an" , "apple" ,"before" ,"afternoon"];
+var eng1a = ["John ate an apple before afternoon"];
 document.getElementById("demo").innerHTML = eng1a;
-var eng1b = ["before", "afternoon", "John" , "ate" ,"an" ,"apple"];
+var eng1b = ["before afternoon john ate an apple"];
 document.getElementById("demo").innerHTML = eng1b;
-var eng1c = ["John", "before", "afternoon" , "ate" ,"an" ,"apple"];
+var eng1c = ["John before afternoon ate an apple"];
 document.getElementById("demo").innerHTML = eng1c;
 var eng2a = ["some", "students", "like" , "to" ,"study" ,"in","the","night"];
 document.getElementById("demo").innerHTML = eng2a;
@@ -66,11 +66,11 @@ var eng10e=["I","bought","a","book","yesterday","that","I","told","her"];
 document.getelementById("demo").innerHTML=eng10e;
 var eng10f=["yesterday","I","bought","a","book","that","I","told","her"];
 document.getelementById("demo").innerHTML=eng10f;
-var hin1a=["राम","और","श्याम","बाजार","गयें"];
+var hin1a=["राम और श्याम बाजार गयें"];
 document.getelementById("demo1").innerHTML=hin1a;
-var hin1b=["राम","और","श्याम","गयें","बाजार"];
+var hin1b=["राम और श्याम गयें बाजार"];
 document.getelementById("demo1").innerHTML=hin1b;
-var hin1c=["बाजार","गयें","राम","और","श्याम"];
+var hin1c=["बाजार गयें राम और श्याम"];
 document.getelementById("demo1").innerHTML=hin1c;
 var hin1d=["गयें","बाजार","राम","और","श्याम"];
 document.getelementById("demo1").innerHTML=hin1d;
@@ -171,7 +171,6 @@ if(lang="hindi"){
   var text = document.getElementById("demo2");
   if (text.style.display === "none") {
     text.style.display = "block";
-     return Re-form the sentence;
   } else {
     text.style.display = "none";
   }
@@ -187,7 +186,6 @@ else{
   var text = document.getElementById("demo2");
   if (text.style.display === "none") {
     text.style.display = "block";
-    return Re-form the sentence;
   } else {
     text.style.display = "none";
   }
