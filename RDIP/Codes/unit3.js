@@ -199,3 +199,9 @@ else{
   }
 }
 }
+function checkfuntion(){
+  if(document. getElementById("demo2"). clicked == true)
+  {
+    document.getElementById("reform").removeAttribute('disabled');
+  }
+}
