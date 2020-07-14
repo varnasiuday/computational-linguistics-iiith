@@ -168,7 +168,8 @@ if(lang="hindi"){
     return hin1a;
     <input type = "button" onclick =getelementById.value=toggleText()>
     function newFunction() {
-            document.getElementById("newForm").reset();
+            document.getElementById("reform").removeAttribute('disabled');
+            document.getElementById("reform").reset();
          }
     function toggleText() {
   var text = document.getElementById("demo2");
@@ -186,7 +187,8 @@ else{
      return eng1a;
      <input type = "button" onclick =getelementById.value=toggleText()> 
    function newFunction() {
-            document.getElementById("newForm").reset();
+            document.getElementById("reform").removeAttribute('disabled');
+            document.getElementById("reform").reset();
          }
    function toggleText() {
   var text = document.getElementById("demo2");
