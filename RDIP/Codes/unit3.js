@@ -166,7 +166,7 @@ if(lang="hindi"){
   function makeid(){
     shuffle(hin1a) ;
     return hin1a;
-    <input type = "button" onclick =getelementById.value=toggleText()>
+    var ref=[<input type = "button" onclick =getelementById.value=toggleText()>]
     function newFunction() {
             document.getElementById("reform").removeAttribute('disabled');
             document.getElementById("reform").reset();
@@ -185,7 +185,7 @@ else{
    function makeid(){
      shuffle(eng1a) ;
      return eng1a;
-     <input type = "button" onclick =getelementById.value=toggleText()> 
+     var ref=[<input type = "button" onclick =getelementById.value=toggleText()>] 
    function newFunction() {
             document.getElementById("reform").removeAttribute('disabled');
             document.getElementById("reform").reset();
@@ -203,5 +203,21 @@ function checkfuntion(){
   if(document. getElementById("demo2"). clicked == true)
   {
     document.getElementById("reform").removeAttribute('disabled');
+    if(JSON.stringify(ref)==JSON.stringify(eng1a))
+      document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(eng1b)
+             document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(eng1c)
+            document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(hin1a)
+            document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(hin1b)
+            document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(hin1c)
+            document.write("Correct sentence");
+    else if(JSON.stringify(ref)==JSON.stringify(hin1d)
+            document.write("Correct sentence");
+    else
+      document.write("Wrong sentence");     
   }
 }
