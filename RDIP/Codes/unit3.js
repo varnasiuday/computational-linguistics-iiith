@@ -218,6 +218,8 @@ function checkfuntion(){
     else if(JSON.stringify(ref)==JSON.stringify(hin1d)
             document.write("Correct sentence");
     else
-      document.write("Wrong sentence");     
+      document.write("Wrong sentence");
+      function correctans(){
+        document.getElementById("reform").removeAttribute('disabled');}
   }
 }
