@@ -203,23 +203,28 @@ function checkfuntion(){
   if(document. getElementById("demo2"). clicked == true)
   {
     document.getElementById("reform").removeAttribute('disabled');
-    if(JSON.stringify(ref)==JSON.stringify(eng1a))
+    if(JSON.stringify(ref)==JSON.stringify(eng1a)){
       document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(eng1b)
+    }else if(JSON.stringify(ref)==JSON.stringify(eng1b){
              document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(eng1c)
+  }else if(JSON.stringify(ref)==JSON.stringify(eng1c){
             document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(hin1a)
+}else if(JSON.stringify(ref)==JSON.stringify(hin1a){
             document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(hin1b)
+}else if(JSON.stringify(ref)==JSON.stringify(hin1b){
             document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(hin1c)
+}else if(JSON.stringify(ref)==JSON.stringify(hin1c){
             document.write("Correct sentence");
-    else if(JSON.stringify(ref)==JSON.stringify(hin1d)
+}else if(JSON.stringify(ref)==JSON.stringify(hin1d){
             document.write("Correct sentence");
-    else
+}else{
       document.write("Wrong sentence");
       function correctans(){
-        document.getElementById("reform").removeAttribute('disabled');}
+        document.getElementById("reform").removeAttribute('disabled');
+        document.getElementById("reform").value="Hide the correct sentence";
+      if(lang==hindi){
+      return["hin1a","hin1b","hin1c","hin1d"]}
+      else{
+      return["eng1a","eng1b","eng1c"]}}
   }
 }
