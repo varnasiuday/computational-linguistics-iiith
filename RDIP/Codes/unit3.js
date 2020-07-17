@@ -222,6 +222,14 @@ function checkfuntion(){
       function correctans(){
         document.getElementById("reform").removeAttribute('disabled');
         document.getElementById("reform").value="Hide the correct sentence";
+        if(document. getElementById("reform"). clicked == true){
+          var text = document.getElementById("reform");
+  if (text.style.display === "none") {
+    text.style.display = "block";
+  } else {
+    text.style.display = "none";
+  }}
+        else{
       if(lang==hindi){
       return["hin1a","hin1b","hin1c","hin1d"]}
       else{
