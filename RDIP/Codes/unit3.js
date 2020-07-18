@@ -166,7 +166,7 @@ if(lang="hindi"){
   function makeid(){
     shuffle(hin1a) ;
     return hin1a;
-    var ref=[<input type = "button" onclick =getelementById.value=toggleText()>]
+    var ref=["<input type = "button" onclick =getelementById.value=toggleText()>"]
     function newFunction() {
             document.getElementById("reform").removeAttribute('disabled');
             document.getElementById("reform").reset();
@@ -185,7 +185,7 @@ else{
    function makeid(){
      shuffle(eng1a) ;
      return eng1a;
-     var ref=[<input type = "button" onclick =getelementById.value=toggleText()>] 
+     var ref=["<input type = "button" onclick =getelementById.value=toggleText()>"] 
    function newFunction() {
             document.getElementById("reform").removeAttribute('disabled');
             document.getElementById("reform").reset();
