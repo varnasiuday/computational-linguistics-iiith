@@ -172,7 +172,7 @@ if(lang="hindi"){
             document.getElementById("reform").reset();
          }
     function toggleText() {
-  var text = document.getElementById("demo2");
+  var text = document.getElementById("reform");
   if (text.style.display === "none") {
     text.style.display = "block";
   } else {
@@ -191,7 +191,7 @@ else{
             document.getElementById("reform").reset();
          }
    function toggleText() {
-  var text = document.getElementById("demo2");
+  var text = document.getElementById("reform");
   if (text.style.display === "none") {
     text.style.display = "block";
   } else {
